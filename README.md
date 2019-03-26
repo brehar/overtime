@@ -15,5 +15,5 @@ __Key requirement__: company needs documentation that salaried employees did or 
 - Needs to be documented if employee did not log overtime
 
 ### UI:
-Bootstrap -> formatting
+- Bootstrap -> formatting
 
