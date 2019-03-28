@@ -2,10 +2,10 @@
 	<h3 class="text-center">Overtime Entry</h3>
 </div>
 <ul class="custom-nav nav nav-tabs">
-	<li>
+	<li class="<%= active?(root_path) %>">
 		<%= link_to 'Home', root_path %>
 	</li>
-	<li>
+	<li class="<%= active?(posts_path) %>">
 		<%= link_to 'Time Entry', posts_path %>
 	</li>
 	<% if user_signed_in? %>
