@@ -1,0 +1,25 @@
+<div class="logo">
+	<h3 class="text-center">Overtime Entry</h3>
+</div>
+<ul class="custom-nav nav nav-tabs">
+	<li>
+		<%= link_to 'Home', root_path %>
+	</li>
+	<li>
+		<%= link_to 'Time Entry', posts_path %>
+	</li>
+	<% if user_signed_in? %>
+		<li class="dropdown pull-right">
+			<a href="#" data-toggle="dropdown" class="dropdown-toggle">
+				<%= current_user.first_name %> <strong class="caret"></strong>
+			</a>
+			<ul class="dropdown-menu">
+				<li><%= link_to 'Edit Profile', edit_user_registration_path %></li>
+				<li class="divider"></li>
+				<li>
+					<%= link_to 'Logout', destroy_user_session_path, method: :delete %>
+				</li>
+			</ul>
+		</li>
+	<% end %>
+</ul>
