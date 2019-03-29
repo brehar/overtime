@@ -18,6 +18,7 @@ group :development, :test do
   gem 'byebug', '~> 9.0'
   gem 'capybara', '~> 2.7'
   gem 'database_cleaner', '~> 1.5'
+  gem 'factory_girl_rails', '~> 4.5'
   gem 'rspec-rails', '~> 3.0'
 end
 
