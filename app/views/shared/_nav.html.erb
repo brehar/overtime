@@ -8,6 +8,9 @@
 	<li class="<%= active?(posts_path) %>">
 		<%= link_to 'Time Entry', posts_path %>
 	</li>
+	<li class="<%= active?(new_post_path) %>">
+		<%= link_to 'Add New Entry', new_post_path, id: 'new_post_from_nav' %>
+	</li>
 	<% if user_signed_in? %>
 		<li class="dropdown pull-right">
 			<a href="#" data-toggle="dropdown" class="dropdown-toggle">
