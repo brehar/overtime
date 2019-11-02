@@ -4,7 +4,7 @@ gem 'rails', '4.2.6'
 
 gem 'bootstrap-sass', '= 3.3.6'
 gem 'coffee-rails', '~> 4.1.0'
-gem 'devise', '= 4.2'
+gem 'devise', '4.7.1'
 gem 'gritter', '1.2.0'
 gem 'jbuilder', '~> 2.0'
 gem 'jquery-rails'
