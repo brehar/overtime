@@ -8,7 +8,7 @@ gem 'devise', '= 4.2'
 gem 'gritter', '1.2.0'
 gem 'jbuilder', '~> 2.0'
 gem 'jquery-rails'
-gem 'nokogiri', '= 1.6.0'
+gem 'nokogiri', '1.12.5'
 gem 'pg', '~> 0.15'
 gem 'sass-rails', '~> 5.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
